@@ -1,0 +1,12 @@
+title: Sarasota Symposium
+email: reginafcompton@gmail.com
+description: >
+  A website for the Sarasota Symposium on April 29, 2017 at Selby Public Library. Organized by Glenn and Mary Compton. Keynote speaker Robert Whitaker.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: ""
+github_username: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
