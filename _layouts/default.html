@@ -20,6 +20,7 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="js/scrolling-nav.js"></script>
+  <script src="https://use.fontawesome.com/9ba99a7e90.js"></script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -44,17 +45,17 @@
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
+                    <li data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="page-scroll" href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#keynote">Keynote</a>
+                    <li data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="page-scroll" href="#keynote"><i class="fa fa-star" aria-hidden="true"></i> Keynote</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#organizers">Organizers</a>
+                    <li data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="page-scroll" href="#organizers"><i class="fa fa-users" aria-hidden="true"></i> Organizers</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#getting-there">Getting there</a>
+                    <li data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a class="page-scroll" href="#getting-there"><i class="fa fa-map-marker" aria-hidden="true"></i> Getting there</a>
                     </li>
                 </ul>
             </div>
@@ -65,4 +66,15 @@
 
     {{ content }}
 
+    <script type="text/javascript">
+
+    $( document ).ready(function() {
+      $('.nav a').on('click', function(){
+          if($('.navbar-toggle').css('display') !='none'){
+              $(".navbar-toggle").trigger( "click" );
+          }
+      });
+    });
+
+    </script>
 </body>
