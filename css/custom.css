@@ -1,4 +1,8 @@
 /* Override Bootstrap */
+.navbar-brand {
+  font-size: 26px;
+}
+
 .navbar-default {
   background-color: #7f2b82;
   border: 0px;
@@ -20,13 +24,18 @@
 }
 
 /* Other */
-p {
-  font-size: 18px;
+body {
+  font-size: 20px;
+  line-height: 1.6;
 }
 
 h1.main-header {
-    font-size: 78px;
+    font-size: 3.5em;
     font-weight: bold;
+}
+
+h2 {
+  font-size: 36px;
 }
 
 .intro-section {
@@ -48,5 +57,9 @@ h1.main-header {
 @media screen and (max-width: 768px) {
     h1{
         font-size: 45px;
+    }
+
+    .well {
+      border-radius: 0;
     }
 }
