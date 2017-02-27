@@ -45,16 +45,16 @@
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
-                    <li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="page-scroll" href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a>
                     </li>
-                    <li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="page-scroll" href="#keynote"><i class="fa fa-star" aria-hidden="true"></i> Keynote</a>
                     </li>
-                    <li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="page-scroll" href="#organizers"><i class="fa fa-users" aria-hidden="true"></i> Organizers</a>
                     </li>
-                    <li>
+                    <li data-toggle="collapse" data-target=".navbar-collapse.show">
                         <a class="page-scroll" href="#getting-there"><i class="fa fa-map-marker" aria-hidden="true"></i> Getting there</a>
                     </li>
                 </ul>
@@ -66,4 +66,15 @@
 
     {{ content }}
 
+    <script type="text/javascript">
+
+    $( document ).ready(function() {
+      $('.nav a').on('click', function(){
+          if($('.navbar-toggle').css('display') !='none'){
+              $(".navbar-toggle").trigger( "click" );
+          }
+      });
+    });
+
+    </script>
 </body>

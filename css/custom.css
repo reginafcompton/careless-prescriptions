@@ -35,7 +35,7 @@ h1.main-header {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2em;
 }
 
 .intro-section {
@@ -55,10 +55,6 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-    h1{
-        font-size: 45px;
-    }
-
     .well {
       border-radius: 0;
     }
