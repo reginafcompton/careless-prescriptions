@@ -1,10 +1,13 @@
 /* Override Bootstrap */
+.navbar {
+  border-radius: 0;
+}
+
 .navbar-brand {
   font-size: 26px;
 }
 
 .navbar-default {
-  /*background-color: #7f2b82;*/
   background-color: #AF1D1F;
   border: 0px;
   color: #fff;
@@ -65,8 +68,27 @@ h2 {
   font-weight: bold;
 }
 
+.btn-nav {
+  margin-top: 7.5px;
+  background-color: #AF1D1F;
+  border: 2px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-nav:hover, .btn-nav:focus {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+
 .padding-btm {
  padding-bottom: 220px;
+}
+
+.padding-top-sm {
+  padding-top: 12px;
 }
 
 @media screen and (max-width: 736px) {
