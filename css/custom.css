@@ -100,4 +100,12 @@ h2 {
         font-size: 2em;
         font-weight: bold;
     }
+
+    .navbar-brand {
+      font-size: 18px;
+    }
+
+    .btn-nav {
+      margin-bottom: 1em;
+    }
 }
