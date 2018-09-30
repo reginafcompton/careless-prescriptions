@@ -47,6 +47,11 @@ of those sections to manage the look and feel of the site. */
     padding-top: 8%;
 }
 
+.issues-section {
+    min-height: 500px;
+    padding-top: 8%;
+}
+
 .keynote-section {
     min-height: 500px;
     padding-top: 8%;
