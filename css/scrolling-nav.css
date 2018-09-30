@@ -44,26 +44,26 @@ of those sections to manage the look and feel of the site. */
 
 .about-section {
     min-height: 500px;
-    padding-top: 8%;
+    padding-top: 12%;
 }
 
 .issues-section {
     min-height: 500px;
-    padding-top: 8%;
+    padding-top: 12%;
 }
 
 .keynote-section {
     min-height: 500px;
-    padding-top: 8%;
+    padding-top: 12%;
 }
 
 .org-section {
     min-height: 500px;
-    padding-top: 8%;
+    padding-top: 12%;
 }
 
 .there-section {
     min-height: 500px;
-    padding-top: 8%;
+    padding-top: 12%;
 }
 
