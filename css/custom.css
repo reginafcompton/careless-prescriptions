@@ -83,6 +83,21 @@ h2 {
   font-weight: bold;
 }
 
+.btn-page {
+  margin-top: 7.5px;
+  background-color: #fff;
+  border: 2px solid #AF1D1F;
+  border-radius: 0;
+  color: #AF1D1F;
+  font-weight: bold;
+}
+
+.btn-page:hover, .btn-page:focus {
+  background-color: #AF1D1F;
+  color: #fff;
+  font-weight: bold;
+}
+
 .padding-btm {
  padding-bottom: 220px;
 }
